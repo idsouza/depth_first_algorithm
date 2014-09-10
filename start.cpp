@@ -26,7 +26,6 @@ struct graph{
     int status = STATE_0;
 };
 
-//Obtem e retorna um grafo da pilha como parametro
 graph* getVertex(const graph *gph, int size, char vertex){ 
     int flag = 0;
     graph *gph_return;
